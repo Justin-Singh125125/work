@@ -1,0 +1,48 @@
+.container{
+    width: 350px;
+}
+.card{
+    
+    width: 100%;
+    -webkit-box-shadow: -7px 0px 40px -25px rgba(0,0,0,0.75);
+    -moz-box-shadow: -7px 0px 40px -25px rgba(0,0,0,0.75);
+    box-shadow: -7px 0px 40px -25px rgba(0,0,0,0.75);
+    padding: 2rem;
+    text-align: center;
+}
+.card__text{
+    font-size: 1rem;
+    font-weight: 300;
+    padding: 0;
+    margin: 10px 0;
+}
+.current-temp-rise{
+    color: red
+}
+.current-temp-rise__ticker{
+    display: inline-block;
+    color: white;
+    font-weight: 200;
+    font-size: 1.5rem;
+
+}
+
+.current-carbon-emissions__ticker{
+    display: inline-block;
+    color: red;
+    font-weight: 800;
+    font-size: 2rem;
+
+}
+.warming-ticker{
+    background-color: red;
+    color: white;
+    margin: 10px 0;
+    padding: 5px;
+
+}
+#current-carbon-emissions_gtc{
+    border-bottom: 1px solid #eee;
+    margin-bottom: 20px;
+}
+

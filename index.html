@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=1024">
+
+    <title>globalwarmingindex.org -- Tracking progress to a safe climate</title>
+
+    <link href="AWI/therm.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+
+
+        <div class="card">
+
+            <h2>Climate Change Tracker</h2>
+
+            <p class="card__text">Carbon emissions since 2013</p>
+
+            <div id="current-carbon-emissions_gtc">
+
+                <span class="current-carbon-emissions__ticker">----------------</span>
+                <p class="card__text">Tonnes of carbon - estimated</p>
+            </div>
+
+            <div class="warming-section">
+
+
+                <p class="card__text">Warming since 2013</p>
+
+
+                <div class="warming-ticker" id="current-temp-rise">
+
+                    <span class='current-temp-rise__ticker'>----------------</span>
+
+
+                </div>
+
+                <div class="warming-ticker" id="current-carbon-emissions">
+
+                    <span class="current-temp-rise__ticker">----------------</span>
+
+                </div>
+                <!-- do not delete this, the counter works off this svg -->
+                <svg id="graph" width="0" height="0"></svg>
+
+            </div>
+
+            <a class="card__text" href="#">see What CalEPA is doing about climate change</a>
+            <p class="card__text">
+                Credits: Many thanks to Prof. Myles Allan and his team at <a
+                    href="https://www.trillionthtonne.org">trillionthtonne.org</a> for providing the tickers shown
+                above.
+            </p>
+
+
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+    <script>if (typeof jQuery === 'undefined') {
+
+            document.write(unescape('%3Cscript%20src%3D%22/js/jquery-2.1.4.min.js%22%3E%3C/script%3E'));
+        }
+
+    </script>
+
+
+
+    <script src="AWI/snap.svg-min.js"></script>
+
+    <script src="AWI/config.js"></script>
+
+    <script src="AWI/app.min.js"></script>
+
+    <script src="AWI/expand.js"></script>
+
+    <script type="text/javascript">
+
+        function toggle(obj) {
+
+            var obj = document.getElementById(obj);
+
+            if (obj.style.display == "block") obj.style.display = "none";
+
+            else obj.style.display = "block";
+
+        }
+
+    </script>
+
+
+
+
+
+</body>
+
+</html>
